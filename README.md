@@ -1,0 +1,4 @@
+# C-Task6
+[There is a specific format for both Laborer’s and Manager’s id. For Laborer it’s PL-XXX and Manager its PM-XX. The id number needs to be auto generating. For both start the value of id from 1.]This Part is optional
+The Main method is given below for you. Your job is to implement the classes along with the relationships.
+class Program { private static void Main(string[] args) { ServiceProvider.Inset(new Manager("PM-01", "Shuvo", "Uttara", 5)); ServiceProvider.Inset(new Manager("PM-02", "Jahid", "Badda", 1)); ServiceProvider.Inset(new Laborer("PL-001", "Sohan", "Mirpur", 85, 20)); ServiceProvider.Inset(new Laborer("PL-002", "Jisan", "Kuril", 65, 44)); ServiceProvider.Inset(new Laborer("PL-003", "Numan", "Banani", 88, 3)); //Manager(id,name,address,yearsOfExperience) //Laborer(id,name,address,userrating,noOfServices) ServiceProvider.ProvideDetails(); ServiceProvider.SkilledWorker(); } }
